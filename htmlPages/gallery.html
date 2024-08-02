@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8"/>
+    <title>Hibachi City Buffet Palm Desert CA All Day Buffet Mongolian Grill</title>
+    <meta name="description"
+          content="Buffet and Mongolian Grill.  All day long.  All you can eat. Lunch: $7.99/$8.49. Dinner: $11.99/$12.99."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../_css/mquery.css" rel="stylesheet" type="text/css">
+    <style>
+        /*html5 display rule*/
+        article, aside, canvas, detials, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+<div id="wrapper">
+    <header role="banner">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="party_tray.html">Party Tray</a></li>
+                <li><a href="#" style="background: #65347E; cursor:default;">Gallery</a></li>
+                <li><a href="location.html">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main">
+        <h1>Welcome to Hibachi City Buffet,<br/>Palm Desert, CA</h1>
+        <ul class="gallery">
+            <li><a href="#"><img src="/_images/gallery/store_front.jpg" title="Hibachi City Buffet" alt=""/></a></li>
+            <li><a href="#"><img src="/_images/gallery/reception.jpg" title="Reception Area" alt=""/></a></li>
+            <li><a href="#"><img src="/_images/gallery/hibachi_grill.jpg" title="Hibachi Grill" alt=""/></a></li>
+        </ul>
+        <ul class="gallery">
+            <li><a href="#"><img src="/_images/gallery/table_1.jpg" title="Buffet Table" alt=""/></a></li>
+            <li><a href="#"><img src="/_images/gallery/table_salad.jpg" title="Fresh Salad" alt=""/></a></li>
+            <li><a href="#"><img src="/_images/gallery/table_soup.jpg" title="Daily Soup" alt=""/></a></li>
+        </ul>
+        <ul class="gallery">
+            <li><a href="#"><img src="/_images/gallery/table_sushi.jpg" title="Japanese Sushi" alt=""/></a></li>
+            <li><a href="#"><img src="/_images/gallery/table_group.jpg" title="Buffet Tables" alt=""/></a></li>
+            <li><a href="#"><img src="/_images/gallery/table_fruit.jpg" title="Fresh Fruits" alt=""/></a></li>
+        </ul>
+        <div style="height: 25px; float: left; clear: left"></div>
+    </div>
+    <footer>
+        <div id="logo">
+            <img src="/_images/yelp.gif" width="49" height="25" class="floatright" alt=""/>
+            <img src="/_images/credit_cards.png" width="87" height="25" class="floatright marginRight" alt=""/>
+            <p><small>No Checks Please</small></p>
+        </div>
+        <div id="domain">
+            <p>www.<span style="color:yellow;">Hibachi</span>City<span style="color:yellow;">Buffet</span>.net</p>
+        </div>
+        <p>All Righst Reserved &copy;
+            <script language="JavaScript" type="text/javascript">
+                document.write((new Date()).getFullYear());
+            </script>
+            Web site design: <a href="http://www.fongsprinting.com" target="_blank">Fong's Graphics & Printing</a></p>
+    </footer>
+</div>
+
+<script language=JavaScript>
+    var message = "Function Disabled!";
+
+    function clickIE4() {
+        if (event.button == 2) {
+            alert(message);
+            return false;
+        }
+    }
+
+    function clickNS4(e) {
+        if (document.layers || document.getElementById && !document.all) {
+            if (e.which == 2 || e.which == 3) {
+                alert(message);
+                return false;
+            }
+        }
+    }
+
+    if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown = clickNS4;
+    } else if (document.all && !document.getElementById) {
+        document.onmousedown = clickIE4;
+    }
+    document.oncontextmenu = new Function("alert(message);return false");
+</script>
+
+</body>
+</html>

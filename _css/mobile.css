@@ -1,0 +1,259 @@
+@charset "utf-8";
+/*mobile*/
+header, section, footer, aside, article, figure {
+    display: block;
+}
+body {
+    font: 62.5%/125% Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+/*Layout*/
+#wrapper {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #f7dc53 10%, #f4bf12 80%, #f4bf12 95%, #65347e 95%, #65347e 100%);
+}
+header {
+    background: #65347E url(/_images/all_day_long_m.png) no-repeat center;
+    height: 40px;
+    position: relative;
+    background-size: 90%;
+}
+nav {
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    top: 40px;
+    left: 3%;
+}
+nav ul {
+    margin: 0 0 0 1%;
+    padding: 0px;
+    list-style: none;
+}
+nav li {
+    float: left;
+}
+nav ul li a {
+    font: bold 1.2em Arial, Helvetica, sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    background: #060;
+    text-align: center;
+    height: 20px;
+    padding: 4px 3px 2px;
+    display: block;
+    margin-right: 2px;
+    letter-spacing: 0.1em;
+    width: 75px;
+    border-radius: 0 0 10px 10px;
+}
+nav ul li a:hover {
+    background: #65347E;
+}
+#main {
+    font-size: 2em;
+    line-height: 100%;
+    padding: 40px 2%;
+}
+#main h1 {
+    font-size: 1.2em;
+    line-height: 130%;
+    margin: -10px 0 5px;
+}
+#main p {
+    font-size: 1em;
+    line-height:120%;
+    margin: 0 0 5px 0;
+}
+#mainlogo {
+    width:100%;
+}
+aside {
+    font-size: 0.7em;
+    float: left;
+    clear: left;
+    margin: 0;
+    width: 90%;
+}
+aside h1 {
+    font: bold italic 1.8em/110% "Times New Roman", Times, serif;
+    color: #92278f;
+}
+section {
+    font: italic 0.8em/100% "Times New Roman", Times, serif;
+    background: #F9EDF7;
+    border: solid 2px #800;
+    border-radius:15px;
+    text-align:center;
+    margin: 5px 0;
+    padding: 5px 0;
+    width: 75%;
+    line-height: 100%;
+}
+section br {
+    display: none;
+}
+#main section h1 {
+    font-size: 1.1em;
+    line-height: 100%;
+    color:#060;
+    margin: 5px 0;
+}
+section.location {
+    font: italic 0.9em/90% "Times New Roman", Times, serif;
+    background: #F9EDF7;
+    float: left;
+    border: solid 2px #800;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius:15px;
+    text-align:center;
+    margin: 10px 0;
+    padding: 0 0 2px;
+    width: 95%;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section h1 {
+    font: #C09 "Times New Roman", Times, serif bold italic;
+    font-size: 1.2em;
+    margin: 15px auto -5px;
+}
+section h2 {
+    margin: 5px 0 0;
+    font: italic bold 1em "Times New Roman", Times, serif;
+    color: #C06;
+}
+section p {
+    margin: 5px 0;
+}
+section.meal {
+    width: 100%;
+    margin: 10px 2% 0 0;
+}
+.col1, .col2 {
+    width: 45%;
+    float: left;
+    margin: 5px 0 15px;
+    font-size: 0.7em;
+}
+.col1 {
+    border-right: solid 1px #333;
+    padding-right: 5px;
+    margin-left: 2%;
+}
+.col2 {
+    font-family:"Arial Black", Gadget, sans-serif;
+}
+#sidebar {
+    width: 95%;
+    clear: left;
+    margin: -5px 0 0 15px;
+}
+#sidebar h2 {
+    font-size: 1.8em;
+    line-height: 150%;
+}
+footer {
+    color: white;
+    text-align:center;
+    font-size: 1.1em;
+    background: #65347e;
+    height: 100px;
+    clear: both;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+#logo {
+    width: 70%;
+    margin: 0 auto;
+}
+#logo p {
+    padding: 0;
+    margin: 15px 0 0;
+}
+#domain {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+/*gallery*/
+ul.gallery {
+    width: 100%;
+    margin: 0;
+    float:left;
+}
+ul.gallery li {
+    float: left;
+    list-style: none;
+    margin-bottom: 5px;
+}
+ul.gallery li a img {
+    width: 340px;
+}
+/*classes*/
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.marginRight {
+    margin-right: 15px;
+}
+.greenBold {
+    font-size: 1.3em;
+    color: #060;
+    font-weight: bold;
+    line-height: 130%;
+}
+hr.square {
+    width: 5px;
+    height: 5px;
+    color: #060;
+    background: #060;
+    margin: 0 auto;
+}
+iframe {
+    display:none;
+}
+
+/*
+     FILE ARCHIVED ON 08:07:36 Feb 19, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:12:00 Aug 02, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.41
+  exclusion.robots: 0.017
+  exclusion.robots.policy: 0.009
+  esindex: 0.009
+  cdx.remote: 53.417
+  LoadShardBlock: 7402.432 (3)
+  PetaboxLoader3.datanode: 90.982 (5)
+  PetaboxLoader3.resolve: 7461.419 (3)
+  load_resource: 174.106 (2)
+*/

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* desktop */
+@import url("/_css/desktop.css") only screen and (min-width:481px);
+/* mobile */
+@import url("/_css/mobile.css") only screen and (max-width:480px);
+
+/* CSS Document */
+
+
+/*
+     FILE ARCHIVED ON 21:41:20 Oct 11, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:18:32 Aug 02, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.561
+  exclusion.robots: 0.038
+  exclusion.robots.policy: 0.023
+  esindex: 0.015
+  cdx.remote: 11.082
+  LoadShardBlock: 208.578 (3)
+  PetaboxLoader3.datanode: 150.222 (4)
+  PetaboxLoader3.resolve: 112.507 (2)
+  load_resource: 73.717
+*/
