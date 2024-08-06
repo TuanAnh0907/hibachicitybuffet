@@ -17,6 +17,49 @@
         }
     </style>
     <link href="_css/mquery.css" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            margin: 0;
+            /*padding: 1.5rem 0;*/
+            cursor: pointer;
+        }
+
+        .dropdown > a {
+            display: inline-block;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .dropdown-content li {
+            display: block;
+            text-align: center;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            border-radius: unset;
+            height: auto !important;
+        }
+
+        .dropdown-content a:hover {
+            color: #ddaa44;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,6 +71,14 @@
                 <li><a href="/htmlPages/party_tray.html">Party Tray</a></li>
                 <li><a href="/htmlPages/gallery.html">Gallery</a></li>
                 <li><a href="/htmlPages/location.html">Location</a></li>
+                <li class="dropdown"><a href="#">City</a>
+                    <ul class="dropdown-content">
+                        <li><a>Ha Noi</a></li>
+                        <li><a>TP.Ho Chi Minh</a></li>
+                    </ul>
+
+
+                </li>
             </ul>
         </nav>
     </header>
@@ -85,6 +136,52 @@
                 <p>Please call for pricing</p>
             </section>
         </div>
+
+        <section style="margin-top:20px; background-color: white; border-radius: 15px; padding: 10px">
+            <h2 style="color: #2E8B57; font-weight: bolder; font-size: 25px">Bài viết mới nhất</h2>
+            <ul class="list-articles" style="list-style: none; padding: 0; font-size: 13px!important;line-height: 13px!important;">
+                <li class="article-item">
+                    <a href="https://amthucbinhxuyen.com/post/tong-hop-16-quan-nhau-tai-phuong-4-quan-10.p664">
+                        Tổng hợp 16 quán nhậu tại Phường 4 Quận 10
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://amthucbinhxuyen.com/post/tong-hop-11-quan-tra-sua-tai-phuong-4-quan-10.p663">
+                        Tổng hợp 11 quán trà sữa tại Phường 4 Quận 10
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://amthucbinhxuyen.com/post/top-17-quan-cafe-tai-phuong-15-quan-4.p662">
+                        Top 17 quán cafe tại Phường 15 Quận 4
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://amthucbinhxuyen.com/post/top-11-quan-nhau-tai-phuong-8-quan-11.p661">
+                        Top 11 quán nhậu tại Phường 8 Quận 11
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://amthucbinhxuyen.com/post/danh-sach-10-quan-an-sang-tai-phuong-5-quan-6.p660">
+                        Danh sách 10 quán ăn sáng tại Phường 5 Quận 6
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://amthucbinhxuyen.com/post/danh-sach-13-quan-nhau-tai-phuong-5-quan-6.p659">
+                        Danh sách 13 quán nhậu tại Phường 5 Quận 6
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://amthucbinhxuyen.com/post/danh-sach-14-quan-nhau-tai-phuong-6-quan-6.p658">
+                        Danh sách 14 quán nhậu tại Phường 6 Quận 6
+                    </a>
+                </li>
+                <li class="article-item">
+                    <a href="https://amthucbinhxuyen.com/post/top-15-quan-cafe-tai-phuong-5-quan-6.p657">
+                        Top 15 quán cafe tại Phường 5 Quận 6
+                    </a>
+                </li>
+            </ul>
+        </section>
     </div>
     <footer>
         <div id="logo">
